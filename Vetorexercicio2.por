@@ -20,40 +20,33 @@ programa
 			escreva("\nEntre com o valor do dado: ")
 				leia(d6[i])
 				
+				
+				
 			se (d6[i] < 1 ou d6[i] > 6){ 
 			escreva("\nDado está com valor inválido! ")
 				escreva("\nEntre com o valor do dado: ")
 				leia(d6[i])
-				
+				limpa()
 			} 
-			senao {
+			 senao{
 				
 				somatotal += d6[i]
-					}
-						se(maiordado < d6[i]){
+					}se(maiordado < d6[i]){
 							maiordado = d6[i]
-						}
-			}
-		
-		
-			
-				para(inteiro i=0; i<10; i++)
-				
-				
-			{ 
-					escreva(i + " : " + d6[i]+ " | ")
-				
-					se(maiordado == d6[i])
+						}se(maiordado == d6[i])
 					{
-						quantidadeCont++
-					}
-			}
+						
+			             quantidadeCont++
+						}
+			
+		}
 
 		media = somatotal/10
 
 		escreva("\nA média aritmética é: ", media)
-		escreva("\nMaior lançamento considerando o 6 como o maior: ", maiordado)
+		escreva("\nMaior lançamento: ", maiordado)
 		escreva("\nQuantas vezes apareceu o maior número: ", quantidadeCont)
+		
 
 	}
 }
@@ -62,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 882; 
+ * @POSICAO-CURSOR = 909; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
