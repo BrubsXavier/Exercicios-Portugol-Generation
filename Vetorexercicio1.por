@@ -18,6 +18,8 @@ programa
 			limpa()
 		 }
 
+		 maiornum = num[0]
+
 		 para(inteiro i = 0; i<=4; i++){
 			escreva(i + " : " + num[i]+ " | ")
 		
@@ -30,7 +32,7 @@ programa
 		 }
 		
 		 escreva("\nA maior nota da atividade foi: ", maiornum)
-	} 
+	} 
 
 	
 	
@@ -40,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 446; 
+ * @POSICAO-CURSOR = 378; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
