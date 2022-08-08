@@ -17,7 +17,7 @@ d) percentual de pessoas com salário até R$100,00.
        
        real sal, filhos, mediasal = 0.0, mediafilhos = 0.0, maiorsal = 0.0, porcentagemmenorsal = 0.0, filhostotal = 0.0, cemsal = 0.0, saltotal = 0.0 
 
-      	para (inteiro i=1; i < 20; i++){
+      	para (inteiro i=1; i <= 20; i++){
 
 		escreva("\n Número do entrevistado: ", i)
 
@@ -75,7 +75,7 @@ d) percentual de pessoas com salário até R$100,00.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1235; 
+ * @POSICAO-CURSOR = 556; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
