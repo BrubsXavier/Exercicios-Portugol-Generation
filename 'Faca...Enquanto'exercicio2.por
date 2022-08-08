@@ -10,17 +10,18 @@ números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
 1+2+3+4+5+6+7=28.
 	  
 	 */
-		inteiro num = 0, result = 0
+		inteiro num, result = 0
 
-		escreva("Digite o número: ")
+		escreva("Digite um número: ")
 		leia(num)
 
 		faca{
-			result = result + num
-			num = num - 1
+			result += num
+			num --
 			
-		}enquanto(num >= 0)
-			escreva(result)
+		}enquanto(num > 0)
+			
+			escreva("A soma de todos os números é de: ", result)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +29,7 @@ números de 1 até ele. Ex.: o usuário entra 7, o programa vai mostrar 28, pois
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 338; 
+ * @POSICAO-CURSOR = 401; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
